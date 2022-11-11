@@ -1,5 +1,6 @@
 body{
     background-color: rgb(238, 241, 255);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -12,13 +13,9 @@ footer{
 #titulo__inicio__container{
     display: flex;
     justify-content: center;
-    background-color: white;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-    0 10px 10px rgba(0,0,0,0.22);
-    background-color: rgb(170, 196, 255);
-    color: white;
 }
+
+
 
 .ico_img_nav{
     padding: 0px;
@@ -44,11 +41,29 @@ article{
 
 .card-title {
     font-size: 20px;
-    background-color: rgb(170, 196, 255);
-    padding-left: 10px;
-    margin-bottom: 20px;
-    border-radius: 20px 20px 20px 20px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-    0 10px 10px rgba(0,0,0,0.22);
+    text-align: center;
 }
 
+.card-text {
+    margin: 1px;
+    text-align: center;
+}
+
+.linea__card{
+    width:100px;
+    color:rgb(71, 71, 71);
+    margin: 20px auto;
+}
+
+
+
+.linea{
+    width: 250px;
+    color:rgb(8, 8, 8);
+    margin: 5px auto;
+}
+
+#img__card{
+    margin-top: 100px;
+    border-radius: 5px;
+}
